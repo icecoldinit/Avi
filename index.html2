@@ -579,3 +579,7 @@ overlay.addEventListener('click',(e)=>{ if(e.target===overlay) overlay.classList
 <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
+<video controls width="100%">
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
