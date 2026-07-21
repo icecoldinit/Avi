@@ -566,9 +566,12 @@ document.querySelectorAll('.modal-tabs button').forEach(btn=>{
     panelSquad.classList.toggle('active', btn.dataset.tab==='squad');
   });
 });
-
 document.getElementById('modalClose').addEventListener('click',()=>overlay.classList.remove('active'));
 overlay.addEventListener('click',(e)=>{ if(e.target===overlay) overlay.classList.remove('active'); });
 </script>
 </body>
 </html>
+<video controls width="100%">
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
